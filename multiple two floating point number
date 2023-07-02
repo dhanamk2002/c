@@ -1,0 +1,18 @@
+#include <stdio.h>
+int main()
+{
+ double a,b,product;
+ printf("enter a:");
+ scanf("%lf",&a);
+ printf("enter b:");
+ scanf("%lf",&b);
+ product= a * b;
+ printf("product =%.2lf",product);
+ return 0;
+    
+}
+/*output
+enter a:16
+enter b:3
+product =48.00
+*/
