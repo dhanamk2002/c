@@ -1,0 +1,28 @@
+#include <stdio.h>
+int main()
+{
+    int num,originalnum,remainder,result=0;
+    printf("enter the number");
+    scanf("%d",& num);
+    originalnum=num;
+    while(originalnum !=0)
+    {
+        remainder= originalnum%10;
+        result+= remainder*remainder*remainder;
+        originalnum/=10;
+    }
+    if(result==num)
+    
+        printf("%d the number is armstrong", num);
+    
+    else
+    
+        printf("%d the number is not an armstrong",num);
+        return 0;
+    
+}
+/* output
+enter the number 20
+20
+20 the number is not an amstrong
+*/
