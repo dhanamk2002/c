@@ -1,0 +1,22 @@
+#include<stdio.h>
+int main()
+{
+int base,exp;
+long double result = 1.0;
+printf("Enter the base:");
+scanf("%d",&base);
+printf("Enter the exponent:");
+scanf("%d",&exp);
+while(exp!=0)
+{
+ result*=base;
+ --exp;
+}
+printf("Answer=%.0LF,result);
+return 0;
+}
+/* output
+Enter the base:16
+Enter the exponent:3
+Answer=4096
+*/
