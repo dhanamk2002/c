@@ -1,0 +1,21 @@
+#include <stdio.h>
+int main()
+{
+   double first,second,temp;
+   printf("Enter the first:");
+   scanf("%lf",&first);
+   printf("Enter the second:");
+   scanf("%lf",&second);
+   temp=first;
+   first=second;
+   second=temp;
+   printf("\n after swap first=%.2lf",first);
+   printf(" after swap scond=%.2lf\n",second);
+   return 0;
+   
+}
+/*
+Enter the first:3
+Enter the second:16
+after swap first=16.00 after swap scond=3.00
+*/
