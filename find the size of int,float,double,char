@@ -1,0 +1,19 @@
+#include <stdio.h>
+int main()
+{
+   int IntType;
+   float FloatType;
+   double DoubleType;
+   char CharType;
+    printf("size of int=%zu\n",sizeof(IntType));
+    printf("size of float=%zu\n",sizeof(FloatType));
+    printf("size of double=%zu\n",sizeof(DoubleType));
+    printf("size of char=%zu\n",sizeof(CharType));
+    return 0;
+}
+/*output
+size of int=4
+size of float=4
+size of double=8
+size of char=1
+*/
